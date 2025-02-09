@@ -34,7 +34,7 @@ export interface SearchResult {
 type ReviewExpansionState = Record<string, boolean>;
 
 // Constants
-const API_BASE_URL = "http://127.0.0.1:8000/api/product/";
+const API_BASE_URL = "http://127.0.0.1:8000/api/product/api/product/";
 
 const ERROR_MESSAGES = {
     BAD_REQUEST: "Bad Request. Please check your input.",
